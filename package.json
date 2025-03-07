@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build/* . && rm -rf build",
+    "build": "react-scripts build && move build\\* . && rmdir /s /q build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
